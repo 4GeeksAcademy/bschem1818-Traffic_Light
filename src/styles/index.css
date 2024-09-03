@@ -9,4 +9,46 @@
     
     import 'relative/path/to/stylesheet.scss';
 
+
+
+    
+
 */
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+.holder {
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}
+
+.traffic-light { 
+    margin-top: -6px;
+    background: black; 
+    padding: 10px; 
+    width: 120px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.light 
+{ width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: rgb(234, 255, 0);
+    margin-bottom: 10px;
+}
+
+.red {background: red; }
+.yellow {background: yellow;}
+.green {background: green;}
+
+.glow{
+box-shadow: 0px 0px 19px 14px #f3f798;
+}
+
+
