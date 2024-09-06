@@ -10,14 +10,14 @@ const Home = ()=> {
 
 function changeColor(c) {
     setColor(c)
-    if (color == 'yellow')
+    if (c === 'yellow')
         {
             setYboxShadow('0px 0px 9px 4px #747DE8')
             setGboxShadow('0px 0px 9px 4px #000000')
             setRboxShadow('0px 0px 9px 4px #000000')
 
         }
-         else if (color == 'red')
+         else if (c === 'red')
             {
                 setYboxShadow('0px 0px 9px 4px #000000')
                 setGboxShadow('0px 0px 9px 4px #000000')
@@ -25,7 +25,7 @@ function changeColor(c) {
     
             }
 
-         else if (color == 'green')
+         else if (c === 'green')
             {
                 setYboxShadow('0px 0px 9px 4px #000000')
                 setGboxShadow('0px 0px 9px 4px #747DE8')
